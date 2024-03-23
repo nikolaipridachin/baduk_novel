@@ -1,0 +1,71 @@
+<story>
+<bg effect="left_right">menu_background</bg>
+<show>
+    <mode>instantly</mode>
+    <name>atsumi</name>
+    <emotion>fine_2</emotion>
+    <position_left>0,5</position_left>
+    <position_down>0,13</position_down>
+    <scale>1,1</scale>
+</show>
+<s>Теперь перед анимацией фона интерфейс плавно пропадает и появляется после анимации.</s>
+<show>
+    <mode>instantly</mode>
+    <name>atsumi</name>
+    <emotion>fine_1</emotion>
+    <position_left>0,4</position_left>
+    <position_down>0,13</position_down>
+    <scale>1,1</scale>
+</show>
+<s>Кстати, разработчики модов смогут создавать свои эффекты смены фона.</s>
+<s>Итак, Приступим!</s>
+<hidecharacter/>
+<s>3</s>
+<s>2</s>
+<s>1...</s>
+<hidemb/>
+<bg effect="sides">photo_1</bg>
+<bg effect="left_right">photo_2</bg>
+<bg effect="black_hole">photo_3</bg>
+<bg effect="top_down">photo_4</bg>
+<bg effect="blur">photo_5</bg>
+<bg effect="decagon">photo_6</bg>
+<bg effect="feathers">photo_7</bg>
+<bg effect="hurricane">photo_8</bg>
+<bg effect="hypno">photo_9</bg>
+<bg effect="radial_clock">photo_10</bg>
+<bg effect="right_left">photo_11</bg>
+<bg effect="spotlight">photo_12</bg>
+<bg effect="swirl_fan">photo_13</bg>
+<bg effect="swirl_pattern">photo_14</bg>
+<showmb/>
+<show>
+    <mode>instantly</mode>
+    <name>atsumi</name>
+    <emotion>shoked_1</emotion>
+    <position_left>0,4</position_left>
+    <position_down>0,13</position_down>
+    <scale>1,1</scale>
+</show>
+<s>Эй, ты в порядке?</s>
+<show>pricked
+    <mode>instantly</mode>
+    <name>atsumi</name>
+    <emotion>pricked_2</emotion>
+    <position_left>0,5</position_left>
+    <position_down>0,13</position_down>
+    <scale>1,1</scale>
+</show>
+<s>Закружилась голова?</s>
+<show>pricked
+    <mode>instantly</mode>
+    <name>atsumi</name>
+    <emotion>thinking_1</emotion>
+    <position_left>0,4</position_left>
+    <position_down>0,13</position_down>
+    <scale>1,1</scale>
+</show>
+<s>Да уж, лучше не перебарщивать с анимациями...</s>
+<s>Давай вернемся обратно!</s>
+<load>back_to_start</load>
+</story>

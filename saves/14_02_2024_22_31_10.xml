@@ -1,0 +1,14 @@
+<savedata>
+    <common>
+        <timestamp>1707939020</timestamp>
+    </common>
+    <scene>
+        <state>gameplay</state>
+        <name>Ацуми</name>
+        <message>Привет, мир!</message>
+        <background>camp_outside</background>
+    </scene>
+    <preview>
+        <base64>some_base_64_data</base64>
+    </preview>
+</savedata>

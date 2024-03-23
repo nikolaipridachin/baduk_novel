@@ -1,0 +1,16 @@
+<gpcollection>
+<metadata>
+    <name>ladder_1</name>
+    <level>1</level>
+</metadata>
+<goproblem>
+    <diagram>
+        <black>d6 c5 e6 d4</black>
+        <white>d5 e5</white>
+    </diagram>
+    <branch>
+        <moves>f5 e4 e3 f4 g4</moves>
+        <result>solved</result>
+    </branch>
+</goproblem>
+</gpcollection>

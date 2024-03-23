@@ -1,0 +1,52 @@
+<story>
+<bg effect="left_right">camp_outside</bg>
+<show>
+    <mode>instantly</mode>
+    <name>atsumi</name>
+    <emotion>neutral_2</emotion>
+    <position_left>0,5</position_left>
+    <position_down>0,13</position_down>
+    <scale>1,1</scale>
+</show>
+<s>И вот мы снова здесь!</s>
+<s>Продолжаем</s>
+<question>
+    <header>Что будем смотреть?</header>
+    <variant>
+        <text>Покажи как меняются фоны</text>
+        <mark>mark_show_background</mark>
+    </variant>
+    <variant>
+        <text>Расскажи про телефон</text>
+        <mark>mark_about_smartphone</mark>
+    </variant>
+    <variant>
+        <text>Экран настроек</text>
+        <mark>mark_settings_screen</mark>
+    </variant>
+    <variant>
+        <text>Покажи доску для Го</text>
+        <mark>mark_show_go_board</mark>
+    </variant>
+    <variant>
+        <text>Я все посмотрел, спасибо!</text>
+        <mark>mark_thank_you</mark>
+    </variant>
+</question>
+
+<mark>mark_show_background</mark>
+<load>background_animations</load>
+
+<mark>mark_about_smartphone</mark>
+<load>about_smarthphone</load>
+
+<mark>mark_show_go_board</mark>
+<load>about_go_board</load>
+
+<mark>mark_settings_screen</mark>
+<load>about_settings_screen</load>
+
+<mark>mark_thank_you</mark>
+<s>Благодарим за внимание!</s>
+<s>Следите за новостями в нашем дискорде и на сайте ishinoki.net ^_~</s>
+</story>

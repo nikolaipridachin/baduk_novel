@@ -1,0 +1,74 @@
+<story>
+<bg>camp_outside</bg>
+<show>
+    <mode>instantly</mode>
+    <name>atsumi</name>
+    <emotion>thinking_1</emotion>
+    <position_left>0,4</position_left>
+    <position_down>0,13</position_down>
+    <scale>1,1</scale>
+</show>
+<s>Телефон игрока будет играть важную роль в игроков процессе.</s>
+<s>Итоговый набор функций находится в стадии обсуждения.</s>
+<show>
+    <mode>instantly</mode>
+    <name>atsumi</name>
+    <emotion>fine_2</emotion>
+    <position_left>0,5</position_left>
+    <position_down>0,13</position_down>
+    <scale>1,1</scale>
+</show>
+<s>Уже заметил эту кнопку справа? Не бойся, нажимай!</s>
+<show>
+    <mode>instantly</mode>
+    <name>atsumi</name>
+    <emotion>fine_1</emotion>
+    <position_left>0,4</position_left>
+    <position_down>0,13</position_down>
+    <scale>1,1</scale>
+</show>
+<s>Увы, кнопочки пока не нажимаются</s>
+<show>
+    <mode>instantly</mode>
+    <name>atsumi</name>
+    <emotion>neutral_2</emotion>
+    <position_left>0,5</position_left>
+    <position_down>0,13</position_down>
+    <scale>1,1</scale>
+</show>
+<s>Смартфон можно будет открыть в любой момент в игре.</s>
+<s>Он всегда показывает время, уровень сигнала, уровень заряда, данные о локации и погоде.</s>
+<s>Этими параметрами можно управлять из скрипта сюжета.</s>
+<s>В заметках можно будет посмотреть текстовые заметки главного героя - термины игры Го и прочие пометки.</s>
+<s>В процессе прохождения у вас может появиться желание порешать более сложные задачи.</s>
+<show>
+    <mode>instantly</mode>
+    <name>atsumi</name>
+    <emotion>thinking_1</emotion>
+    <position_left>0,4</position_left>
+    <position_down>0,13</position_down>
+    <scale>1,1</scale>
+</show>
+<s>Это можно сделать в приложении BadukTop. Решение задач не будет требоваться для прохождения сюжета.</s>
+<s>Да-да, повторюсь, никто не будет заставлять вас решать задачи...</s>
+<show>
+    <mode>instantly</mode>
+    <name>atsumi</name>
+    <emotion>okay_1</emotion>
+    <position_left>0,4</position_left>
+    <position_down>0,13</position_down>
+    <scale>1,1</scale>
+</show>
+<s>Ну...</s>
+<s>По крайней мере сложные точно не будем</s>
+<show>
+    <mode>instantly</mode>
+    <name>atsumi</name>
+    <emotion>glad_2</emotion>
+    <position_left>0,5</position_left>
+    <position_down>0,13</position_down>
+    <scale>1,1</scale>
+</show>
+<s>Пока это все что мы можем о нем рассказать. Давай вернемся обратно!</s>
+<load>back_to_start</load>
+</story>

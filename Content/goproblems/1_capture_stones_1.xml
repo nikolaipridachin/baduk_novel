@@ -1,0 +1,46 @@
+<gpcollection>
+<metadata>
+    <name>capture_stones_1</name>
+    <level>1</level>
+</metadata>
+<goproblem>
+    <diagram>
+        <black>d1 f1</black>
+        <white>e1</white>
+    </diagram>
+    <branch>
+        <moves>e2</moves>
+        <result>solved</result>
+    </branch>
+</goproblem>
+<goproblem>
+    <diagram>
+        <black>d2 c3 d4</black>
+        <white>b2 c2 d3 f3</white>
+    </diagram>
+    <branch>
+        <moves>e3</moves>
+        <result>solved</result>
+    </branch>
+</goproblem>
+<goproblem>
+    <diagram>
+        <black>b3 c2 d3</black>
+        <white>b4 c3 d4</white>
+    </diagram>
+    <branch>
+        <moves>c4</moves>
+        <result>solved</result>
+    </branch>
+</goproblem>
+<goproblem>
+    <diagram>
+        <black>a2 b3 c2</black>
+        <white>b2 c3 b4</white>
+    </diagram>
+    <branch>
+        <moves>b1</moves>
+        <result>solved</result>
+    </branch>
+</goproblem>
+</gpcollection>

@@ -1,0 +1,81 @@
+<story>
+
+<show>
+    <name>atsumi</name>
+    <emotion>shoked_1</emotion>
+    <position_left>0,5</position_left>
+    <scale>1</scale>
+</show>
+<s>Ээээ!?!</s>
+
+<show>
+    <name>atsumi</name>
+    <emotion>thinking_1</emotion>
+    <position_left>0,5</position_left>
+    <scale>1</scale>
+</show>
+<s>Как бы это сказать...</s>
+<s>Это, знаешь ли, смущает, когда тебя так рассматривают.</s>
+<show>
+    <name>atsumi</name>
+    <emotion>okay_1</emotion>
+    <position_left>0,5</position_left>
+    <scale>1</scale>
+</show>
+<s>Черт, в скрипте это прописано, хе-хе, у меня нет выбора.</s>
+<show>
+    <name>atsumi</name>
+    <emotion>glad_2</emotion>
+    <position_left>0,57</position_left>
+    <scale>1</scale>
+</show>
+<s>Лааадно, уговорили.</s>
+<show>
+    <name>atsumi</name>
+    <emotion>fine_2</emotion>
+    <position_left>0,57</position_left>
+    <scale>1</scale>
+</show>
+<s>Здорово, да?</s>
+<show>
+    <name>atsumi</name>
+    <emotion>fine_2</emotion>
+    <position_left>0,57</position_left>
+    <scale>1</scale>
+</show>
+<s>Как же я ждала ждала этот спрайт!</s>
+<show>
+    <name>atsumi</name>
+    <emotion>thinking_1</emotion>
+    <position_left>0,5</position_left>
+    <scale>1</scale>
+</show>
+<s>Ты хоть знаешь как затекают руки, вот так их держать?</s>
+<show>
+    <name>atsumi</name>
+    <emotion>neutral_2</emotion>
+    <position_left>0,57</position_left>
+    <scale>1</scale>
+</show>
+<s>Спасибо, Мария! Ты супер!</s>
+<s>Кстати, у меня правда будут чулочки? ^^</s>
+<show>
+    <name>atsumi</name>
+    <emotion>okay_1</emotion>
+    <position_left>0,5</position_left>
+    <scale>1</scale>
+</show>
+<s>Бедный Ким, хе-хе</s>
+<s>Не терпится увидеть остальных!</s>
+<show>
+    <name>atsumi</name>
+    <emotion>thinking_2</emotion>
+    <position_left>0,57</position_left>
+    <scale>1</scale>
+</show>
+<s>Скоро все начнется.</s>
+<s>Ох... Андрей, какую же судьбу вы с Ваней мне уготовили..?</s>
+<goto>end_of_story</goto>
+<mark>end_of_story</mark>
+
+</story>

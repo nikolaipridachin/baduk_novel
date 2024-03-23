@@ -1,0 +1,36 @@
+<gpcollection>
+<metadata>
+    <name>two_eyes_1</name>
+    <level>1</level>
+</metadata>
+<goproblem>
+    <diagram>
+        <black>a2 c2 b2 d2 d1</black>
+        <white>a3 b3 c3 d3 e3 e2 e1</white>
+    </diagram>
+    <branch>
+        <moves>b1</moves>
+        <result>solved</result>
+    </branch>
+</goproblem>
+<goproblem>
+    <diagram>
+        <black>a3 b3 c2 b2 c1</black>
+        <white>a4 b4 c4 c3 d3 d2 d1</white>
+    </diagram>
+    <branch>
+        <moves>a1</moves>
+        <result>solved</result>
+    </branch>
+</goproblem>
+<goproblem>
+    <diagram>
+        <black>a3 b3 c3 e3 d3 e2 e1</black>
+        <white>a2 b2 c2 d2 d1</white>
+    </diagram>
+    <branch>
+        <moves>b1</moves>
+        <result>solved</result>
+    </branch>
+</goproblem>
+</gpcollection>

@@ -1,0 +1,255 @@
+<story>
+
+<bg>menu_background</bg>
+<bgsound>menu_theme</bgsound>
+<bgvolume>15</bgvolume>
+<name>Ацуми</name>
+<show>
+    <mode>instantly</mode>
+    <name>atsumi</name>
+    <emotion>fine_2</emotion>
+    <position_left>0,5</position_left>
+    <position_down>0,13</position_down>
+    <scale>1,3</scale>
+</show>
+<break/>
+<show>
+    <name>atsumi</name>
+    <emotion>shoked_2</emotion>
+    <position_left>0,5</position_left>
+    <position_down>0,13</position_down>
+    <scale>1,3</scale>
+</show>
+<s>Эй! Ты еще не умеешь играть в го?</s>
+<show>
+    <name>atsumi</name>
+    <emotion>neutral_2</emotion>
+    <position_left>0,5</position_left>
+    <position_down>0,13</position_down>
+    <scale>1,3</scale>
+</show>
+<s>Нет, так не пойдет!</s>
+<s>Давай немного научим тебя играть в го</s>
+<show>
+    <name>atsumi</name>
+    <emotion>neutral_1</emotion>
+    <position_left>0,4</position_left>
+    <position_down>0,13</position_down>
+    <scale>1,3</scale>
+</show>
+<s>Нельзя же делать новеллу про Го, даже не зная её прави, правда?</s>
+<s>Обещаю что будет несложно</s>
+<s>У нас есть прекрасный Сенсэй</s>
+<s>Спрайта у него еще нет, но все равно от прекрасен</s>
+<showboard />
+<name>Сенсэй</name>
+<s>Добрый вечер, приступим!</s>
+<s>Давай научимся некоторым основам го.</s>
+<s>Поговорим про захват и спасение камней.</s>
+<s>Первая тема - захват одиночного камня.</s>
+<s>Я выставлю несколько задач. Сделай за черных такой ход, чтобы белый камень был плотно окружен.</s>
+<goproblem>
+    <task>Задача 1 ( Ход черных, захватить белый камень )</task>
+    <diagram>
+        <black>b1 c2</black>
+        <white>c1</white>
+    </diagram>
+    <branch>
+        <moves>d1</moves>
+        <result>solved</result>
+    </branch>
+    <failcomment>Попробуй еще раз...</failcomment>
+</goproblem>
+<s>Да, именно так!</s>
+<goproblem>
+    <task>Задача 2 ( Ход черных, захватить белый камень )</task>
+    <diagram>
+        <black>d1 f1</black>
+        <white>e1</white>
+    </diagram>
+    <branch>
+        <moves>e2</moves>
+        <result>solved</result>
+    </branch>
+    <failcomment>Попробуй еще раз...</failcomment>
+</goproblem>
+<s>Правильно.</s>
+<goproblem>
+    <task>Задача 3 ( Ход черных, захватить белый камень )</task>
+    <diagram>
+        <black>d2 c3 d4</black>
+        <white>b2 c2 d3 f3</white>
+    </diagram>
+    <branch>
+        <moves>e3</moves>
+        <result>solved</result>
+    </branch>
+    <failcomment>Попробуй еще раз...</failcomment>
+</goproblem>
+<s>Хорошо, продолжай!</s>
+<goproblem>
+    <task>Задача 4 ( Ход черных, захватить белый камень )</task>
+    <diagram>
+        <black>b3 c2 d3</black>
+        <white>b4 c3 d4</white>
+    </diagram>
+    <branch>
+        <moves>c4</moves>
+        <result>solved</result>
+    </branch>
+    <failcomment>Попробуй еще раз...</failcomment>
+</goproblem>
+<s>Теперь попробуй такую..</s>
+<goproblem>
+    <task>Задача 5 ( Ход черных, захватить белый камень )</task>
+    <diagram>
+        <black>a2 b3 c2</black>
+        <white>b2 c3 b4</white>
+    </diagram>
+    <branch>
+        <moves>b1</moves>
+        <result>solved</result>
+    </branch>
+    <failcomment>Попробуй еще раз...</failcomment>
+</goproblem>
+<s>С этим разобрались, хорошо.</s>
+<clearboard />
+<s>Теперь попробуй захватить группу камней. Принцип тот же.</s>
+<goproblem>
+    <task>Задача 6 ( Ход черных, захватить группу белых камней)</task>
+    <diagram>
+        <black>b2 c2 d2 a3 b4 c4 e3</black>
+        <white>b1 b3 c3 d3 f3 e5 c5</white>
+    </diagram>
+    <branch>
+        <moves>d4</moves>
+        <result>solved</result>
+    </branch>
+    <failcomment>Попробуй еще раз...</failcomment>
+</goproblem>
+<s>Хорошо, да!</s>
+<goproblem>
+    <task>Задача 7 ( Ход черных, захватить группу белых камней )</task>
+    <diagram>
+        <black>b3 b5 c4 e4 d4 f4 f3 d2 e2</black>
+        <white>a3 b2 c3 d3 e3 f2 g2</white>
+    </diagram>
+    <branch>
+        <moves>c2</moves>
+        <result>solved</result>
+    </branch>
+    <failcomment>Попробуй еще раз...</failcomment>
+</goproblem>
+<s>Молодец.</s>
+<goproblem>
+    <task>Задача 8 ( Ход черных, захватить группу белых камней )</task>
+    <diagram>
+        <black>b1 b2 a4 b5 c5 c7 e1 e2 d2 d3 d4</black>
+        <white>d6 d5 b4 c4 c3 c2 c1 d1 e4 f3 f2 f1</white>
+    </diagram>
+    <branch>
+        <moves>b3</moves>
+        <result>solved</result>
+    </branch>
+    <failcomment>Попробуй еще раз...</failcomment>
+</goproblem>
+<s>Верно, а как насчет такой задачи?</s>
+<goproblem>
+    <task>Задача 9 ( Ход черных, захватить группу белых камней )</task>
+    <diagram>
+        <black>b2 c2 d2 a3 a4 b5 c5 e4 e3</black>
+        <white>b4 c4 b3 c3 d3 d5 d6 c7 f5 g6 e2 f2 g3</white>
+    </diagram>
+    <branch>
+        <moves>d4</moves>
+        <result>solved</result>
+    </branch>
+    <failcomment>Попробуй еще раз...</failcomment>
+</goproblem>
+<s>Правильно.</s>
+<goproblem>
+    <task>Задача 10 ( Ход черных, захватить группу белых камней )</task>
+    <diagram>
+        <black>c2 b3 d3 b4 a5 b6 c6 d6 d5 e5 f4</black>
+        <white>b5 c5 c4 c3 d4 e4 f5 f6 e7 d7 c7 b7 e2 f2 g3 h5</white>
+    </diagram>
+    <branch>
+        <moves>e3</moves>
+        <result>solved</result>
+    </branch>
+    <failcomment>Попробуй еще раз...</failcomment>
+</goproblem>
+<s>Теперь ты умеешь захватывать группы камней, отлично.</s>
+<s>Мы разобрались с этим быстрее чем я думал.</s>
+<s>Чтож, у нас еще есть время, давай сделаем еще один шаг.</s>
+<s>Теперь твоя задача не захватить, а спастись.</s>
+<s>Найди такой ход, который спасает твои камни.</s>
+<goproblem>
+    <task>Задача 11 ( Ход черных, захватить группу белых камней)</task>
+    <diagram>
+        <black>b2 c2 c3 c4 d3 e3 f2 g2 h3 d5 e5 f5</black>
+        <white>b1 c1 a2 b3 b4 c5 c6 d2 e2 f3 f4 e4</white>
+    </diagram>
+    <branch>
+        <moves>d4</moves>
+        <result>solved</result>
+    </branch>
+    <failcomment>Попробуй еще раз...</failcomment>
+</goproblem>
+<s>Хорошо, да!</s>
+<goproblem>
+    <task>Задача 12 ( Ход черных, захватить группу белых камней)</task>
+    <diagram>
+        <black>b2 c2 d2 d3 b4 c5 b6 e4 f4 e6</black>
+        <white>a2 b1 c1 d1 e2 e3 c3 c4 d4</white>
+    </diagram>
+    <branch>
+        <moves>b3</moves>
+        <result>solved</result>
+    </branch>
+    <failcomment>Попробуй еще раз...</failcomment>
+</goproblem>
+<s>Хорошо, да!</s>
+<goproblem>
+    <task>Задача 13 ( Ход черных, захватить группу белых камней)</task>
+    <diagram>
+        <black>c4 c3 c2 b3 d3 d6 d5 f5 g3 f2 e2</black>
+        <white>c1 d1 d2 b2 a3 b4 c5 e4 e3</white>
+    </diagram>
+    <branch>
+        <moves>d4</moves>
+        <result>solved</result>
+    </branch>
+    <failcomment>Попробуй еще раз...</failcomment>
+</goproblem>
+<s>Хорошо, да!</s>
+<goproblem>
+    <task>Задача 14 ( Ход черных, захватить группу белых камней)</task>
+    <diagram>
+        <black>a1 b1 b2 b3 c2 d2 f2 g3 h2</black>
+        <white>c1 d1 e1 f4 f3 c3 d3 b4 a4 a3 a2</white>
+    </diagram>
+    <branch>
+        <moves>e2</moves>
+        <result>solved</result>
+    </branch>
+    <failcomment>Попробуй еще раз...</failcomment>
+</goproblem>
+<s>Хорошо, да!</s>
+<goproblem>
+    <task>Задача 15 ( Ход черных, захватить группу белых камней)</task>
+    <diagram>
+        <black>c1 c2 d2 e2 f3 g3 h2 i3</black>
+        <white>b1 b2 b4 c3 d3 e3 d1 e1 f1 g1 g2</white>
+    </diagram>
+    <branch>
+        <moves>f2</moves>
+        <result>solved</result>
+    </branch>
+    <failcomment>Попробуй еще раз...</failcomment>
+</goproblem>
+<s>Хорошо, да!</s>
+<s>На этом пока закончим, ты молодец.</s>
+<hideboard/>
+<load>start</load>
+</story>

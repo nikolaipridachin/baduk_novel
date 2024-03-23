@@ -1,0 +1,99 @@
+<story>
+<hidecharacter/>
+<music_stop/>
+<bg>black</bg>
+<s>А? Кто здесь?</s>
+<show>
+    <name>atsumi</name>
+    <emotion>neutral_2</emotion>
+    <position_left>0,6</position_left>
+    <position_down>0,74</position_down>
+    <scale>2,0</scale>
+</show>
+<name>Ацуми</name>
+<s>Братик! Браааааатиииииик!</s>
+<name/>
+<s>Дай поспать. До релиза еще далеко…</s>
+<hidecharacter/>
+<show>
+    <name>atsumi</name>
+    <emotion>neutral_2</emotion>
+    <position_left>0,5</position_left>
+    <position_down>0,13</position_down>
+    <scale>1,1</scale>
+</show>
+<name>Ацуми</name>
+<s>Может и так, но нам уже есть, что показать. Так что просыпайся!</s>
+<name/>
+<show>
+    <mode>instantly</mode>
+    <name>atsumi</name>
+    <emotion>fine_1</emotion>
+    <position_left>0,4</position_left>
+    <position_down>0,13</position_down>
+    <scale>1,1</scale>
+</show>
+<mark>test_mark</mark>
+<name>Ацуми</name>
+<s>Эх, Ким, нет у тебя чувства юмора.</s>
+<name/>
+<s>А вот у тебя чувства юмора слишком много.</s>
+<name>Ацуми</name>
+<show>
+    <mode>instantly</mode>
+    <name>atsumi</name>
+    <emotion>pricked_2</emotion>
+    <position_left>0,5</position_left>
+    <position_down>0,13</position_down>
+    <scale>1,1</scale>
+</show>
+<s>Как-то тут темно. Сейчас поправим…</s>
+<music_play>slice_of_life</music_play>
+<hidemb/>
+<bg effect="left_right">camp_outside</bg>
+<showmb/>
+<show>
+    <mode>instantly</mode>
+    <name>atsumi</name>
+    <emotion>fine_2</emotion>
+    <position_left>0,5</position_left>
+    <position_down>0,13</position_down>
+    <scale>1,1</scale>
+</show>
+<name>Ацуми</name>
+<s>Вот! Другое дело!</s>
+<s>Итак...</s>
+<question>
+    <header>Что будем смотреть?</header>
+    <variant>
+        <text>Покажи как меняются фоны</text>
+        <mark>mark_show_background</mark>
+    </variant>
+    <variant>
+        <text>Расскажи про телефон</text>
+        <mark>mark_about_smartphone</mark>
+    </variant>
+    <variant>
+        <text>Экран настроек</text>
+        <mark>mark_settings_screen</mark>
+    </variant>
+    <variant>
+        <text>Покажи доску для Го</text>
+        <mark>mark_show_go_board</mark>
+    </variant>
+</question>
+<mark>mark_show_background</mark>
+<s>Сейчас я покажу фоны</s>
+<s>Вот вот!</s>
+<load>background_animations</load>
+<mark>mark_about_smartphone</mark>
+<s>Поговорим про смартфон</s>
+<load>about_smarthphone</load>
+<mark>mark_show_go_board</mark>
+<s>Хочешь посмотреть доску для Го?</s>
+<load>about_go_board</load>
+<mark>mark_settings_screen</mark>
+<s>Экран настроек? Да в нем ничего особенного</s>
+<load>about_settings_screen</load>
+<s>...</s>
+</story>

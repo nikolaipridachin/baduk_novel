@@ -1,0 +1,116 @@
+<gpcollection>
+<metadata>
+    <name>test_level_2_2</name>
+    <level>2</level>
+</metadata>
+<goproblem>
+    <diagram>
+        <black>d1 f1</black>
+        <white>e1</white>
+    </diagram>
+    <branch>
+        <moves>e2</moves>
+        <result>solved</result>
+    </branch>
+</goproblem>
+<goproblem>
+    <diagram>
+        <black>a2 c2 b2 d2 d1</black>
+        <white>a3 b3 c3 d3 e3 e2 e1</white>
+    </diagram>
+    <branch>
+        <moves>b1</moves>
+        <result>solved</result>
+    </branch>
+</goproblem>
+<goproblem>
+    <diagram>
+        <black>d2 c3 d4</black>
+        <white>b2 c2 d3 f3</white>
+    </diagram>
+    <branch>
+        <moves>e3</moves>
+        <result>solved</result>
+    </branch>
+</goproblem>
+<goproblem>
+    <diagram>
+        <black>b3 b4 d2 c2</black>
+        <white>d5 f3 c3 f4 e5</white>
+    </diagram>
+    <branch>
+        <moves>d4</moves>
+        <result>solved</result>
+    </branch>
+</goproblem>
+<goproblem>
+    <diagram>
+        <black>a3 b3 c2 b2 c1</black>
+        <white>a4 b4 c4 c3 d3 d2 d1</white>
+    </diagram>
+    <branch>
+        <moves>a1</moves>
+        <result>solved</result>
+    </branch>
+</goproblem>
+<goproblem>
+    <diagram>
+        <black>b3 c2 d3</black>
+        <white>b4 c3 d4</white>
+    </diagram>
+    <branch>
+        <moves>c4</moves>
+        <result>solved</result>
+    </branch>
+</goproblem>
+<goproblem>
+    <diagram>
+        <black>c2 c1 d2</black>
+        <white>d1 e1 h2 g3 f3</white>
+    </diagram>
+    <branch>
+        <moves>f2</moves>
+        <result>solved</result>
+    </branch>
+</goproblem>
+<goproblem>
+    <diagram>
+        <black>a2 b3 c2</black>
+        <white>b2 c3 b4</white>
+    </diagram>
+    <branch>
+        <moves>b1</moves>
+        <result>solved</result>
+    </branch>
+</goproblem>
+<goproblem>
+    <diagram>
+        <black>b4 b3 c2 d2 e2</black>
+        <white>c3 d3</white>
+    </diagram>
+    <branch>
+        <moves>e4</moves>
+        <result>solved</result>
+    </branch>
+</goproblem>
+<goproblem>
+    <diagram>
+        <black>d6 c5 e6 d4</black>
+        <white>d5 e5</white>
+    </diagram>
+    <branch>
+        <moves>f5 e4 e3 f4 g4</moves>
+        <result>solved</result>
+    </branch>
+</goproblem>
+<goproblem>
+    <diagram>
+        <black>a3 b3 c3 e3 d3 e2 e1</black>
+        <white>a2 b2 c2 d2 d1</white>
+    </diagram>
+    <branch>
+        <moves>b1</moves>
+        <result>solved</result>
+    </branch>
+</goproblem>
+</gpcollection>

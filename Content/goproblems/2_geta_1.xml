@@ -1,0 +1,36 @@
+<gpcollection>
+<metadata>
+    <name>geta_1</name>
+    <level>1</level>
+</metadata>
+<goproblem>
+    <diagram>
+        <black>b3 b4 d2 c2</black>
+        <white>d5 f3 c3 f4 e5</white>
+    </diagram>
+    <branch>
+        <moves>d4</moves>
+        <result>solved</result>
+    </branch>
+</goproblem>
+<goproblem>
+    <diagram>
+        <black>c2 c1 d2</black>
+        <white>d1 e1 h2 g3 f3</white>
+    </diagram>
+    <branch>
+        <moves>f2</moves>
+        <result>solved</result>
+    </branch>
+</goproblem>
+<goproblem>
+    <diagram>
+        <black>b4 b3 c2 d2 e2</black>
+        <white>c3 d3</white>
+    </diagram>
+    <branch>
+        <moves>e4</moves>
+        <result>solved</result>
+    </branch>
+</goproblem>
+</gpcollection>

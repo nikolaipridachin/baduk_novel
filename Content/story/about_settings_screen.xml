@@ -1,0 +1,34 @@
+<story>
+<bg effect="left_right">menu_background</bg>
+<show>
+    <mode>instantly</mode>
+    <name>atsumi</name>
+    <emotion>neutral_2</emotion>
+    <position_left>0,5</position_left>
+    <position_down>0,13</position_down>
+    <scale>1,1</scale>
+</show>
+<s>Сейчас мы разрабатываем экран настроек.</s>
+<s>Попасть в него можно из главного меню или из контекстного во время игры.</s>
+<s>На данный момент экран настроек неинтерактивный.</s>
+<show>
+    <mode>instantly</mode>
+    <name>atsumi</name>
+    <emotion>fine_1</emotion>
+    <position_left>0,4</position_left>
+    <position_down>0,13</position_down>
+    <scale>1,1</scale>
+</show>
+<s>Сделай правый клик мышкой и выбери "Настройки"</s>
+<s>Интересный факт - позиции на фоне экрана настроек взяты из нашей авторской книги об игре Го.</s>
+<show>
+    <mode>instantly</mode>
+    <name>atsumi</name>
+    <emotion>glad_2</emotion>
+    <position_left>0,5</position_left>
+    <position_down>0,13</position_down>
+    <scale>1,1</scale>
+</show>
+<s>Пока это все. Давай вернемся обратно!</s>
+<load>back_to_start</load>
+</story>
